@@ -234,7 +234,7 @@
   /* side bar styles */
 
   .sidebar {
-      height: 2157px;
+      height: 2208px;
       width: 370px;
       padding-top: 40px;
       background-color: #1E2939;
@@ -316,4 +316,33 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 24px;
+  }
+
+  .cv__button {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 25px;
+      padding: 10px 20px;
+
+      background-color: #ffffff;
+      /* color: #7e1c43; */
+      border-color: #7e1c43;
+      border-radius: 10px;
+      outline: none;
+      box-shadow: 0 0 10px rgb(193, 193, 195);
+      cursor: pointer;
+      transition: .5s;
+      text-decoration: none;
+  }
+
+  .cv__button:hover,
+  .cv__button:focus {
+      background-color: #7e1c43;
+      color: #ffffff;
+      box-shadow: 0 0 30px rgb(193, 193, 195);
+  }
+
+  .cv__link {
+      text-decoration: none;
   }
