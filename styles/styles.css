@@ -15,7 +15,7 @@
       border-radius: 5px;
       background-color: #fff;
       box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-      padding: 40px 40px;
+      padding: 0 40px 0 40px;
   }
 
   /* about styles */
@@ -33,10 +33,12 @@
       font-size: 20px;
       line-height: 17px;
       color: #000000;
-      margin-bottom: 20px;
+      margin: 0 0 30px 0;
+      text-align: center;
   }
 
   .about__name {
+      text-align: center;
       font-style: normal;
       font-weight: 700;
       /* font-size: 45px; */
@@ -55,7 +57,6 @@
       font-size: 14px;
       line-height: 24px;
       color: #595959;
-      width: 400px;
   }
 
   /* project styles */
@@ -202,7 +203,9 @@
       list-style: none;
   }
 
-
+  .education__item:not(:last-child) {
+      margin-bottom: -20px;
+  }
 
   .study {
       font-style: normal;
@@ -283,7 +286,7 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 27px;
-      color: #565e6a;
+      color: #fff;
       text-decoration: none;
   }
 
